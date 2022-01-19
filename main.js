@@ -1,4 +1,4 @@
-var bs = require('./modules/binary-search')
+var bs = require('./binary-search/binary-search')
 
 const inputArr = [1, 2, 3, 5, 7, 9, 11, 43, 80];
 

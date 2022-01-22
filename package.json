@@ -1,0 +1,22 @@
+{
+  "name": "algo-practice",
+  "version": "1.0.0",
+  "description": "Algorithm and Data Structure practice and implementation",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhodges10/algo-practice.git"
+  },
+  "author": "hhodges10",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hhodges10/algo-practice/issues"
+  },
+  "homepage": "https://github.com/hhodges10/algo-practice#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}

@@ -1,4 +1,4 @@
-exports.bSearchIterative = function bSearchIterative(arr, target) {
+function bSearchIterative(arr, target) {
     let lower = 0;
     let upper = arr.length - 1;
     while(lower <= upper) {
@@ -15,7 +15,7 @@ exports.bSearchIterative = function bSearchIterative(arr, target) {
     return `Target (${target}) not found - binarySearchIterative`;
 }
 
-exports.bSearchRecursive = function bSearchRecursive(arr, target, lower, upper) {
+function bSearchRecursive(arr, target, lower, upper) {
     if(upper < lower) {
         return `Target (${target}) not found - binarySearchRecursive`;
     }
@@ -31,3 +31,6 @@ exports.bSearchRecursive = function bSearchRecursive(arr, target, lower, upper) 
         return bSearchRecursive(arr, target, lower, upper);
     }
 }
+
+module.exports.bSearchIterative = bSearchIterative;
+module.exports.bSearchRecursive = bSearchRecursive;
